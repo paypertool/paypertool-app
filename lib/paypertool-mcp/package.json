@@ -1,0 +1,60 @@
+{
+  "name": "@paypertool/mcp",
+  "version": "0.1.1",
+  "description": "MCP server that lets AI agents discover and pay for PayPerTool tools per-call in USDC on Base via the x402 protocol. No signup, no API keys.",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "x402",
+    "agent",
+    "ai-agent",
+    "usdc",
+    "base",
+    "stablecoin",
+    "micropayments",
+    "claude",
+    "anthropic"
+  ],
+  "license": "MIT",
+  "author": "PayPerTool",
+  "homepage": "https://web-production-a4921.up.railway.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttcarter38-max/paypertool.git",
+    "directory": "lib/paypertool-mcp"
+  },
+  "bugs": {
+    "url": "https://github.com/ttcarter38-max/paypertool/issues"
+  },
+  "type": "module",
+  "bin": {
+    "paypertool-mcp": "./dist/cli.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "tsx ./src/cli.ts",
+    "build": "node build.mjs && tsc -p tsconfig.json --emitDeclarationOnly --declaration --outDir dist || true",
+    "prepublishOnly": "pnpm run build",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "viem": "^2.48.11",
+    "x402": "^1.2.0",
+    "x402-fetch": "^1.2.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "catalog:",
+    "esbuild": "^0.25.0",
+    "tsx": "catalog:"
+  }
+}

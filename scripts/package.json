@@ -1,0 +1,23 @@
+{
+  "name": "@workspace/scripts",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "status": "tsx ./src/status.ts",
+    "pay:setup": "tsx ./src/x402-pay.ts setup",
+    "pay:scrape": "tsx ./src/x402-pay.ts scrape",
+    "mcp:test-all": "tsx ./src/mcp-test-all.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "catalog:",
+    "tsx": "catalog:"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "viem": "^2.48.11",
+    "x402": "^1.2.0",
+    "x402-fetch": "^1.2.0"
+  }
+}
