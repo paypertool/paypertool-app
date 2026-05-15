@@ -1,5 +1,5 @@
 {
-  "name": "@paypertool/mcp",
+  "name": "@paypertooldev/paypertool-mcp",
   "version": "0.1.1",
   "description": "MCP server that lets AI agents discover and pay for PayPerTool tools per-call in USDC on Base via the x402 protocol. No signup, no API keys.",
   "keywords": [
@@ -17,14 +17,14 @@
   ],
   "license": "MIT",
   "author": "PayPerTool",
-  "homepage": "https://web-production-a4921.up.railway.app",
+  "homepage": "https://github.com/paypertool/paypertool-app",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ttcarter38-max/paypertool.git",
+    "url": "git+https://github.com/paypertool/paypertool-app.git,
     "directory": "lib/paypertool-mcp"
   },
   "bugs": {
-    "url": "https://github.com/ttcarter38-max/paypertool/issues"
+    "url": "url": "https://github.com/paypertool/paypertool-app/issues"
   },
   "type": "module",
   "bin": {
