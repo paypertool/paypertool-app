@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useQuery } from "@tanstack/react-query";
+import { Footer } from "@/components/Footer";
 import {
   ArrowRight,
   Copy,
@@ -639,7 +640,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </footer>
-    </div>
+       </footer>
+       <Footer />
+     </div>
   );
 }
