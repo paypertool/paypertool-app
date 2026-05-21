@@ -20,11 +20,11 @@
   "homepage": "https://github.com/paypertool/paypertool-app",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/paypertool/paypertool-app.git,
+    "url": "git+https://github.com/paypertool/paypertool-app.git",
     "directory": "lib/paypertool-mcp"
   },
   "bugs": {
-    "url": "url": "https://github.com/paypertool/paypertool-app/issues"
+    "url": "https://github.com/paypertool/paypertool-app/issues"
   },
   "type": "module",
   "bin": {
