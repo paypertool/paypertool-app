@@ -235,7 +235,33 @@ export default function Home() {
       {/* Orbs */}
       <div className="absolute top-[20%] left-[10%] w-96 h-96 bg-purple-600/20 rounded-full blur-[100px] pt-orb-1 pointer-events-none" />
       <div className="absolute bottom-[20%] right-[10%] w-[30rem] h-[30rem] bg-cyan-500/10 rounded-full blur-[100px] pt-orb-2 pointer-events-none" />
-
+      {/* Trust strip — facilitator + network */}
+      <div className="relative z-50 border-b border-emerald-500/20 bg-emerald-500/[0.04] backdrop-blur-xl">
+        <div className="max-w-6xl mx-auto px-6 py-2 flex items-center justify-center gap-2 text-[11px] pt-mono text-emerald-200/90 tracking-wide">
+          <span className="relative flex h-1.5 w-1.5">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
+            <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-emerald-400" />
+          </span>
+          <span className="hidden sm:inline">Payments settled via</span>
+          <a
+            href="https://github.com/coinbase/x402"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline decoration-emerald-400/40 underline-offset-2 hover:text-emerald-100 hover:decoration-emerald-300"
+          >
+            Coinbase x402 facilitator
+          </a>
+          <span>on</span>
+          <a
+            href="https://basescan.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline decoration-emerald-400/40 underline-offset-2 hover:text-emerald-100 hover:decoration-emerald-300"
+          >
+            Base mainnet
+          </a>
+        </div>
+      </div>
       {/* Sticky Nav */}
       <nav className="sticky top-0 z-50 border-b border-white/10 bg-[#0B0B1F]/80 backdrop-blur-xl">
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between gap-6">
