@@ -1,6 +1,6 @@
 {
   "name": "@paypertooldev/paypertool-mcp",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "MCP server that lets AI agents discover and pay for PayPerTool tools per-call in USDC on Base via the x402 protocol. No signup, no API keys.",
   "keywords": [
     "mcp",
