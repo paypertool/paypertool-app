@@ -5,7 +5,7 @@ import { isSearchEnabled } from "./search";
 import { isAgentMemoryEnabled } from "./agent-memory";
 
 export const PAY_TO_ADDRESS =
-  "0xD54173d0708d16bBe17A8a1156e66460aE872Ff7" as Address;
+  "0xF99d7a5ACe9D89c7b01799981823d2264C7380e5" as Address;
 
 export const X402_NETWORK: Network =
   (process.env["X402_NETWORK"] as Network | undefined) ?? "base-sepolia";
