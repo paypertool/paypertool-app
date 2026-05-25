@@ -7,6 +7,7 @@ import Home from "@/pages/Home";
 import Terms from "@/pages/Terms";
 import Privacy from "@/pages/Privacy";
 import Status from "@/pages/Status";
+import Docs from "@/pages/Docs";
 
 const queryClient = new QueryClient();
 
@@ -17,6 +18,7 @@ function Router() {
      <Route path="/terms" component={Terms} />
      <Route path="/privacy" component={Privacy} />
      <Route path="/status" component={Status} />
+      <Route path="/docs" component={Docs} />
      <Route component={NotFound} />
     </Switch>
   );
