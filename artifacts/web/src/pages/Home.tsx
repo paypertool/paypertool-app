@@ -481,6 +481,20 @@ export default function Home() {
                 call.
               </p>
             </div>
+                        <div className="flex flex-wrap items-center gap-2">
+              <a
+                href="https://www.npmjs.com/package/@paypertooldev/paypertool-mcp"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Built and signed on GitHub Actions"
+              >
+                <img
+                  src="https://img.shields.io/npm/v/@paypertooldev/paypertool-mcp?logo=npm&label=npm%20%7C%20provenance&color=06b6d4"
+                  alt="npm version with provenance"
+                  className="h-5"
+                />
+              </a>
+            </div>
 
             <div className="pt-glass rounded-xl overflow-hidden border-amber-500/20">
               <div className="px-4 py-2 border-b border-amber-500/20 bg-amber-500/5 text-xs pt-mono text-amber-300 flex items-center gap-2">
